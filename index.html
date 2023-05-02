@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="I am an aspiring front-end developer, based in the U.S. As a recent grad of Shecodes Basics and Shecodes Plus, I am eager for the opportunity to hone my skills in the tech industry." />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <element id="main"></element>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <title>Shelby Heck's Portfolio Page</title>
+  </head>
+  <style>
+    .bg-light {
+      background-color: white !important;
+    }
+     
+    @media (max-width: 575px) {
+      .Project_Images {
+        display: none;
+      }
+
+      h4 {
+        font-size: 30px;
+      }
+
+      .Project_Button {
+        margin-top: 10px;
+        margin-bottom: 40px;
+      }
+      
+      .navigation-links {
+        margin-bottom: 20px;
+      }
+    }
+
+    @media (min-width: 576px) {
+      .navigation-links {
+        margin-bottom: 35px;
+      }
+
+      .Project_Button {
+        margin-top: 20px;
+        margin-bottom: 45px;
+      }
+    }
+
+  </style>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-light mb-5 fixed-top"
+      role="navigation"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Shelby Heck</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="index.html"
+              >Homepage</a
+            >
+            <a class="nav-link text-secondary" href="about.html">About Me</a>
+            <a class="nav-link text-secondary" href="about.html#contact"
+              >Contact Me</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+    <h2>
+      <strong class="fs-2">👋 Hello, I am</strong>
+    </h2>
+    <h1>
+      <strong>Shelby Heck</strong>
+    </h1>
+    <h3>Front-end developer, based in the US</h3>
+    <div class="navigation-links">
+      <a href="about.html#contact" title="Contact Shelby Heck" class="contact-link">Contact me</a>
+      <a href="about.html" title="About Shelby Heck" class="about-link">About me</a>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <img src="src/images/yoga.png" title="Yoga project" class="img-fluid Project_Images" />
+        </div>
+        <div class="col-sm-6">
+          <h4 class="d-flex justify-content-center mb-3">
+            Yoga App
+          </h4>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum. mvmvmvm
+          <div class="d-grid gap-2 col-6 mx-auto">
+            <button title="Yoga app" class="btn btn-info btn-outline-light Project_Button">
+              Launch Yoga App
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6">
+          <img src="src/images/weather.png" title="Weather project" class="img-fluid Project_Images" />
+        </div>
+        <div class="col-sm-6">
+          <h4 class="d-flex justify-content-center mb-3">Weather App</h4>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Pretium
+          viverra suspendisse potenti nullam ac tortor vitae. Viverra nam libero
+          justo laoreet sit amet cursus. Auctor elit sed vulputate mi sit amet.
+          Aenean et tortor at risus viverra adipiscing at.
+          <div class="d-grid gap-2 col-6 mx-auto">
+            <button title="Weather app" class="btn btn-info btn-outline-light Project_Button">
+              Launch Weather App
+            </button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6">
+            <img src="src/images/yogurt.png" title="Yogurt project" class="img-fluid Project_Images" />
+          </div>
+          <div class="col-sm-6">
+            <h4 class="d-flex justify-content-center mb-3">Yogurt App</h4>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Fermentum iaculis eu non diam phasellus vestibulum lorem. Arcu
+            cursus euismod quis viverra nibh cras. Posuere ac ut consequat
+            semper viverra nam libero justo laoreet. Eget duis at tellus at.
+            <div class="d-grid gap-2 col-6 mx-auto">
+              <button title="Yogurt app" class="btn btn-info btn-outline-light Project_Button">
+                Launch Yogurt App
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
